@@ -9,7 +9,7 @@ export default function AppNavBar(){
 	const {user} = useContext(UserContext);
 
 	return (
-		<Navbar expand="lg" className="bg-body-tertiary">
+		<Navbar expand="lg" className="navbar">
 		      <Container>
 		        <Navbar.Brand as={NavLink} to="/">Zuitt Fitness</Navbar.Brand>
 
